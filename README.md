@@ -38,22 +38,22 @@ Trình bày Mapreduce và  Spark
       + Sự biến đổi
       + Hành động
 3/ Điểm khác nhau giữa Mapreduce với Spark
-   Mapreduce: 
-    + Đây là một khung công tác mã nguồn mở được sử dụng để ghi dữ liệu vào Hệ thống Tệp Phân tán Hadoop.
-    + Có tốc độ rất chậm so với Apache Spark.
-    + Không thể xử lý xử lý thời gian thực.
-    + Rất khó để lập trình như bạn yêu cầu mã cho mọi quy trình.
-    + Hỗ trợ nhiều dự án bảo mật hơn.
-    + Để thực hiện tác vụ,không thể lưu vào bộ nhớ đệm.
-    + Khả năng mở rộng của nó rất tốt vì bạn có thể thêm tối đa n nút khác nhau.
-    + Nó thực sự cần các truy vấn khác để thực hiện nhiệm vụ.
-   Spark:
-    + Là một khuôn khổ mã nguồn mở được sử dụng để xử lý dữ liệu nhanh hơn.
-    + Nó nhanh hơn nhiều so với MapReduce.
-    + Nó có thể xử lý thời gian thực.
-    + Nó rất dễ dàng để lập trình.
-    + Bảo mật của nó không tốt bằng MapReduce và liên tục giải quyết các vấn đề bảo mật của nó.
-    + Nó có thể cache dữ liệu bộ nhớ để xử lý tác vụ của nó.
-    + Có khả năng mở rộng thấp so với MapReduce. 
-    + Có Spark SQL làm ngôn ngữ truy vấn rất riêng của nó.
+   - Mapreduce: 
+      + Đây là một khung công tác mã nguồn mở được sử dụng để ghi dữ liệu vào Hệ thống Tệp Phân tán Hadoop.
+      + Có tốc độ rất chậm so với Apache Spark.
+      + Không thể xử lý xử lý thời gian thực.
+      + Rất khó để lập trình như bạn yêu cầu mã cho mọi quy trình.
+      + Hỗ trợ nhiều dự án bảo mật hơn.
+      + Để thực hiện tác vụ,không thể lưu vào bộ nhớ đệm.
+      + Khả năng mở rộng của nó rất tốt vì bạn có thể thêm tối đa n nút khác nhau.
+      + Nó thực sự cần các truy vấn khác để thực hiện nhiệm vụ.
+   - Spark:
+      + Là một khuôn khổ mã nguồn mở được sử dụng để xử lý dữ liệu nhanh hơn.
+      + Nó nhanh hơn nhiều so với MapReduce.
+      + Nó có thể xử lý thời gian thực.
+      + Nó rất dễ dàng để lập trình.
+      + Bảo mật của nó không tốt bằng MapReduce và liên tục giải quyết các vấn đề bảo mật của nó.
+      + Nó có thể cache dữ liệu bộ nhớ để xử lý tác vụ của nó.
+      + Có khả năng mở rộng thấp so với MapReduce. 
+      + Có Spark SQL làm ngôn ngữ truy vấn rất riêng của nó.
     
