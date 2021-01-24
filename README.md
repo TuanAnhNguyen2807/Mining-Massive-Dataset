@@ -1,5 +1,5 @@
-Trình bày Mapreduce và  Spark 
-Trình bày Mapreduce
+#Trình bày Mapreduce và  Spark 
+#Trình bày Mapreduce
   MapReduce là một khung lập trình cho phép chúng ta thực hiện xử lý phân tán và song song trên các tập dữ liệu lớn trong môi trường phân tán.
   Thuật toán MapReduce chứa hai nhiệm vụ quan trọng, đó là Map và Reduce.
   Map lấy một tập hợp dữ liệu và chuyển đổi thành một tập dữ liệu khác, trong đó các phần tử riêng lẻ được chia nhỏ thành các bộ giá trị (cặp khóa / giá trị). Thứ hai, giảm tác vụ, lấy đầu ra từ bản đồ làm đầu vào và kết hợp các bộ dữ liệu đó thành một bộ nhỏ hơn các bộ giá trị.
@@ -13,7 +13,7 @@ Trình bày Mapreduce
     + Sẽ rất tiết kiệm chi phí để di chuyển đơn vị xử lý sang dữ liệu.
     + Thời gian xử lý được giảm xuống vì tất cả các nút đang làm việc song song với một phần dữ liệu của chúng.
     + Mỗi nút đều nhận một phần dữ liệu để xử lý và do đó, không có khả năng nút bị quá tải.
-Trình bày Spark
+#Trình bày Spark
    Spark là một trong những công nghệ mới nhất đang được sử dụng để xử lý Dữ liệu lớn một cách nhanh chóng và dễ dàng.
    Apache Spark là một công cụ xử lý mã nguồn mở mạnh mẽ được xây dựng dựa trên tốc độ, tính dễ sử dụng và phân tích phức tạp, với các API trong Java, Scala, Python, R và SQL.
    Spark là một dự án mã nguồn mở trên Apache.
@@ -37,7 +37,7 @@ Trình bày Spark
    Có hai loại hoạt động Spark:
       + Sự biến đổi
       + Hành động
-Điểm khác nhau giữa Mapreduce với Spark
+#Điểm khác nhau giữa Mapreduce với Spark
    - Mapreduce: 
       + Đây là một khung công tác mã nguồn mở được sử dụng để ghi dữ liệu vào Hệ thống Tệp Phân tán Hadoop.
       + Có tốc độ rất chậm so với Apache Spark.
